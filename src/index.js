@@ -6,7 +6,7 @@ import { createMenuPage } from "./pages/menu.js"
 import { ContactTab } from "./pages/contact.js"
 
 const buttons = document.querySelectorAll('button')
-loadPage(createMenuPage())
+loadPage((createHomePage()))
 buttons.forEach(button => button.addEventListener('click', function (e) {
     e.preventDefault()
     if (e.target.dataset['tab'] === "home") {

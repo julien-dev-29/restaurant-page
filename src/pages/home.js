@@ -1,4 +1,4 @@
-import { createElement, addTitle, animateWithJurol, createContainer } from "../utils/dom"
+import { createElement, addTitle, createContainer } from "../utils/dom"
 import { setBtnActive } from "../utils/utils"
 import { cards } from "../data/home-card"
 /**
